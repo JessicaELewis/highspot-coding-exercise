@@ -1,0 +1,30 @@
+.library {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.card {
+  width: 100%;
+  background-color: inherit;
+  border: 5px solid black;
+  -webkit-box-shadow: inset 0px 0px 0px 2px #d9a73d;
+  -moz-box-shadow: inset 0px 0px 0px 2px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 0px 0px 2px #d9a73d;
+  &-body {
+    border: 5px solid rgba(0,0,0,0);
+    -webkit-box-shadow: inset 0px 0px 0px 1px #d9a73d;
+    -moz-box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 0px 1px #d9a73d;
+    img {
+      max-width: 100%;
+    }
+  }
+  &-title {
+    margin-top: 1em;
+    font-size: 1.3rem;
+  }
+  @media (min-width: 768px) { width: 50%; }
+  @media (min-width: 992px) { width: 25%; }
+}
+
